@@ -1,11 +1,13 @@
 Examen tecnico para Acciona
 Se publican 2 endpoints, ejemplo de ejecucion en host 'localhost' y puerto 2556:
--LoginController:		http://localhost:2556/api/login/Login
--ProvinciaController:	http://localhost:2556/api/provincia/Obtener?nombre=tierra
+
+	LoginController:	http://localhost:2556/api/login/Login
+	ProvinciaController:	http://localhost:2556/api/provincia/Obtener?nombre=tierra
 
 Repositorio Git: https://github.com/carlosaqr/ExamenTecnicoAcciona.git
 
 Consideraciones:
+
 	Login: 
 		El endpoint Login usa solamente el protocolo POST.
 		Se deben pasar los parametros UserName y Password para loggear el usuario.
